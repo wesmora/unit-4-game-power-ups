@@ -1,0 +1,83 @@
+body{
+    background-size: cover;
+    background-image: url("http://www.modafinilsale.com/data/out/118/228513105-mario-bros-backgrounds.jpg");
+    font-family: Georgia, 'Times New Roman', Times, serif
+
+}
+
+
+.titlebox {
+    background-color: rgb(72, 207, 72);
+    width: 550px;
+    height: 50px;
+    margin: 20px;
+    font-size: 30px;
+}
+
+.instructions {
+    background-color:rgb(235, 235, 62);
+    width:550px;
+    height:700;
+    margin: 20px;
+    border: 15px
+}
+
+.score-win-container{
+    width: 300px;
+    height: 100px;
+    float: left;
+}
+.score-card {
+    background-color:blueviolet;
+    width:200px;
+    height:100px;
+    padding-left: 50px; 
+    float: left;
+    margin: 0px 20px 20px 20px;
+}
+
+.wins-losses {
+    background-color:violet;
+    width: 75px;
+    height:100px;
+    float: left; 
+    padding-left: 50px;
+    margin: 0 0 0 0 
+}
+
+.powerImage1, .powerImage2, .powerImage3, .powerImage4 {
+
+    /* clear: both; */
+    
+    /* display: block; */
+    width: 100px;
+    height: 100px;
+    margin: 20px;
+    align-content: left;
+    
+    
+}
+
+.mariopowerupcontaier {
+    clear: both;
+    width: 800px;
+    height: 100px;
+    /* background-color: indigo; */
+
+}
+
+.total-score {
+    background-color: grey;
+    font-size: 40px;
+    width: 400px;
+    height: 50px;
+    margin: 20px;
+
+}
+
+.score {
+    background-color: gray;
+    width: 400px;
+    height: 300px;
+    margin: 20px;
+}
