@@ -8,7 +8,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/reset.css" />
     <link rel="stylesheet" type="text/css" media="screen" href="assets/css/style.css" />
-    <script src="assets/javascript/game.js"></script>
+    
+    
+
 </head>
 
 <body>
@@ -50,9 +52,9 @@
                     </div>    
         </div>
                 <div class="mariopowerupcontaier">
-                    <img class="powerImage1" src="assets/images/star.png">
-                    <img class="powerImage2" src="assets/images/red-mushroom.png">
-                    <img class="powerImage3" src="assets/images/flower-power.png">
+                    <img id="powerImage1" src="assets/images/star.png">
+                    <img id="powerImage2" src="assets/images/red-mushroom.png">
+                    <img id="powerImage3" src="assets/images/flower-power.png">
                     <img class="powerImage4" src="assets/images/Star_Coin.png">
                 </div>
         
@@ -65,7 +67,7 @@
 
     </div>
     </div>
-<script>
+
     //computer picks random number
     //on click of a crystal
         //add points to players total
@@ -73,9 +75,10 @@
         //if players points = computer points
             //if true print winner
             //if points go over print losser
-</script>
 
+<script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
 
+<script src="assets/javascript/game.js"></script>
 </body>
 
 </html>
