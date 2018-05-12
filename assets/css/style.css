@@ -27,7 +27,7 @@ body{
     height: 100px;
     float: left;
 }
-.score-card {
+#score-card {
     background-color:blueviolet;
     width:200px;
     height:100px;
@@ -45,7 +45,7 @@ body{
     margin: 0 0 0 0 
 }
 
-.powerImage1, .powerImage2, .powerImage3, .powerImage4 {
+#powerImage1, #powerImage2, #powerImage3, #powerImage4 {
 
     /* clear: both; */
     
@@ -75,7 +75,7 @@ body{
 
 }
 
-.score {
+#score {
     background-color: gray;
     width: 400px;
     height: 300px;
