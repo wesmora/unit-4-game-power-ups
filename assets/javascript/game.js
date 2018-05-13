@@ -58,7 +58,7 @@ $(document).ready(function() {
         totalScore = mushroomNum + totalScore;
         $("#score").text("Score Counter: " + totalScore);
         ifElse();
-        console.log("powerImage2")
+        console.log("#powerImage2")
         });
 
 
@@ -66,7 +66,7 @@ $(document).ready(function() {
         totalScore = flowerNum + totalScore;
         $("#score").text("Score Counter: " + totalScore);
         ifElse();
-        console.log("powerImage3")
+        console.log("#powerImage3")
         });
     
 
